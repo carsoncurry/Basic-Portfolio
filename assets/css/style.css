@@ -1,0 +1,24 @@
+header {
+    background-color: #ffffff;
+    border-color: #cccccc;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+}
+
+body {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #666666;
+    color: whitesmoke;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    text-align: center;
+}
