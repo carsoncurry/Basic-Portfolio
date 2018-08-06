@@ -6,14 +6,23 @@ header {
     font-size: 24px;
 }
 
+h1 {
+    color: #4aaaa5;
+}
+
 body {
     background-color: #ffffff;
     border-color: #dddddd;
 }
 
+img {
+    align: left;
+}
+
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    align: right;
 }
 
 footer {
