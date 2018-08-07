@@ -4,25 +4,32 @@ header {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
+    width: 100%;
+    padding: 5px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1;
 }
 
 h1 {
     color: #4aaaa5;
 }
 
+/* Background pattern from Toptal Subtle Patterns */
 body {
-    background-color: darkslategray;
-    border-color: #dddddd;
+    background-image: "assets/images/qbkls.png";
+    background-repeat: repeat;
 }
 
-div {
+.content {
     background-color: #ffffff;
     width: 960px;
-    border: 25px;
-    border-style: none;
-    padding: 25px;
+    height: auto;
+    padding: 15px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 img {
@@ -43,4 +50,7 @@ footer {
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
 }
