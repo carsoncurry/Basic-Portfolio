@@ -18,8 +18,7 @@ h1 {
 
 /* Background pattern from Toptal Subtle Patterns */
 body {
-    background-image: "assets/images/qbkls.png";
-    background-repeat: repeat;
+    background-image: url("https://raw.githubusercontent.com/carsoncurry/Basic-Portfolio/master/assets/images/qbkls.png");
 }
 
 .content {
