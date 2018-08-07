@@ -11,18 +11,29 @@ h1 {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: darkslategray;
     border-color: #dddddd;
 }
 
+div {
+    background-color: #ffffff;
+    width: 960px;
+    border: 25px;
+    border-style: none;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 img {
-    align: left;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 25px;
 }
 
 p {
     color: #777777;
     font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
-    align: right;
 }
 
 footer {
@@ -31,4 +42,5 @@ footer {
     font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
     text-align: center;
     margin-top: 20px;
+    width: 100%;
 }
