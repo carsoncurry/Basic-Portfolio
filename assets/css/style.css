@@ -5,15 +5,31 @@ header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     width: 100%;
-    padding: 5px;
+    padding: 25px;
     left: 0;
     top: 0;
     position: fixed;
     z-index: 1;
+    border-bottom: solid;
+    border-color: lightgray;
+}
+
+.nav {
+    text-align: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4aaaa5;
+    color: white;
 }
 
 h1 {
     color: #4aaaa5;
+}
+
+hr {
+    background-color: #4aaaa5;
 }
 
 /* Background pattern from Toptal Subtle Patterns */
@@ -28,6 +44,8 @@ body {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 75px;
     position: relative;
 }
 
@@ -48,7 +66,10 @@ footer {
     font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
     text-align: center;
     margin-top: 20px;
+    border-top: solid;
+    border-color: #4aaaa5;
     width: 100%;
+    padding: 15px;
     bottom: 0;
     left: 0;
     position: fixed;
