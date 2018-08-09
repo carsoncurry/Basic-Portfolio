@@ -1,7 +1,7 @@
 header {
     background-color: #ffffff;
     border-color: #cccccc;
-    color: #4aaaa5;
+    color: darkgray;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     width: 100%;
@@ -9,19 +9,105 @@ header {
     left: 0;
     top: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     border-bottom: solid;
     border-color: lightgray;
 }
 
-.nav {
-    text-align: left;
+.navname {
+    text-align: center;
+    line-height: 45px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
-    margin-left: auto;
-    margin-right: auto;
+    font-weight: 525;
+    width: 200px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin-left: 248px;
+    border: none;
     background-color: #4aaaa5;
     color: white;
+}
+
+.navmenu {
+    text-align: right;
+    line-height: 50px;
+    word-spacing: 25px;
+    font-size: 13px;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    margin-left: 1032px;
+    border: none;
+    background-color: #ffffff;
+    color: darkslategray;
+}
+
+.contact1 {
+    text-align: left;
+    font-size: 13px;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    line-height: 30px;
+    position: static;
+    height: 30px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 1px;
+    padding-left: 5px;
+    border-color: darkgray;
+}
+
+.contact2 {
+    position: static;
+    height: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    border-width: 1px;
+    border-color: darkgray;
+}
+
+.submitbutton {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    position: static;
+    line-height: 30px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+div.relative {
+    position: relative;
+    width: 175px;
+    height: 150px;
+    border: solid;
+    border-width: 1px;
+    padding: 0 15px 15px 0;
+    z-index: 1;
+}
+
+div.absolute {
+    text-align: center;
+    position: absolute;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    bottom: 10px;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-right: 1px;
 }
 
 h1 {
@@ -44,7 +130,7 @@ body {
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-bottom: 75px;
     position: relative;
 }
@@ -73,4 +159,5 @@ footer {
     bottom: 0;
     left: 0;
     position: fixed;
+    z-index: 2;
 }
