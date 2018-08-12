@@ -88,80 +88,28 @@ nav {
 }
 
 a:link {
-    color: white;
+    color: darkslategray;
     background: transparent;
     text-decoration: none;
 }
 
 a:focus {
-    color: white;
+    color: lightgray;
     background: transparent;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: lightgray;
     background: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: black;
     background: transparent;
     text-decoration: underline;
 }
-
-section.fixed {
-    position: fixed;
-    width: 960px;
-    height: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
-    z-index: 3;
-}
-
-div.relative1 {
-    position: relative;
-    width: 175px;
-    height: 150px;
-    border: solid;
-    border-width: 1px;
-    padding: 0 15px 15px 0;
-    z-index: 1;
-    margin-right: 15px;
-}
-
-div.relative2 {
-    position: relative;
-    width: 175px;
-    height: 150px;
-    border: solid;
-    border-width: 1px;
-    padding: 0 15px 15px 0;
-    z-index: 1;
-    float: right;
-    margin-left: 15px;
-}
-
-div.absolutebox1 {
-    text-align: center;
-    position: absolute;
-    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
-    bottom: 10px;
-    width: 100%;
-    height: 42px;
-    line-height: 42px;
-    background-color: #4aaaa5;
-    color: white;
-    padding-right: 1px;
-}
-
-.clearfix::after {
-    content: "";
-    display: block;
-    clear: both;
-  }
 
 h1 {
     color: #4aaaa5;
@@ -188,7 +136,7 @@ body {
     position: relative;
 }
 
-img {
+.profile {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -213,4 +161,51 @@ footer {
     left: 0;
     position: fixed;
     z-index: 2;
+}
+
+.contentgallery {
+    background-color: #ffffff;
+    width: 960px;
+    height: 550px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    position: relative;
+}
+
+.gallerypic {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border: solid;
+    border-color: transparent;
+    background-color: lightgrey;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    display: block;
+    position: relative;
+}
+
+.gallerylabel {
+    bottom: 10px;
+    height: 50px;
+    width: 200px;
+    font-family: 'Arial', 'Helvetica New', Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50px;
+    background-color: #4aaaa5;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #4aaaa5;
+    display: block;
+    position: absolute;
+}
+
+clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
